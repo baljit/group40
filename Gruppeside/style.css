@@ -1,0 +1,110 @@
+﻿#container {
+	width: 80%;
+	max-width: 1000px;
+	min-width: 300px;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+#header {
+	text-align:center;
+	color: black;
+	background-color: gray;
+	margin: 0 auto;
+	padding: 0;
+	border:	thin solid black;
+}
+
+#container2 {
+	width: 100%;
+	max-width: 1000px;
+	min-width: 300px;
+	margin: 0 auto;
+	padding: 0;
+	
+}
+
+#menu {
+  width: 20%;
+  float: left; 
+  border: thin solid black; 
+  background-color: gray; 
+  min-height: 600px;
+}
+
+#menu ul {
+  line-height: 2;
+}
+
+#container3 {
+  width: 79%;
+  float: right;
+  
+}
+
+#ht {
+  width: 78%;
+  float: left;
+  border: thin solid black;
+  min-height: 600px;
+  background-color: white;
+}
+
+#medlemmer {
+  width: 20%;
+  float: right;
+  border: thin solid black; 
+  margin: 0 auto;
+  padding: 0;
+  background-color: gray;
+  min-height: 600px;
+}
+
+#medlemmer img {
+  width: 50px;
+  height: 60px;
+ }
+
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: darkgray;
+  font-family: "Trebuchet MS", Verdana, Helvetica, Arial, Sans-Serif;
+  font-size: 75%;
+}
+
+table {
+  margin: 2%;
+  padding: 0;
+  border: thin solid black;
+  min-width: 75%;
+ }
+ 
+td {
+  border: thin solid black;
+}
+
+ 
+p {
+  margin: 2%;
+}
+
+a {
+  margin: 2%;
+}
+
+h1, h2, h3, h4 {
+  margin: 2%;
+}
+
+hr {
+  width: 95%;	
+  border: thin black solid
+}
+
+ul {
+  line-height: 1;
+}
+
