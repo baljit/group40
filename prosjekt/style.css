@@ -2,10 +2,16 @@
 	background-color: lightgray;
 }
 
+hr {
+  width: 95%;	
+  border: thin black solid
+}
+
 #container {
-	width: 80%;
+	width: 50%;
 	margin: 0 auto;
 	background-color: white;
+	min-width: 600px;
 
 }
 
@@ -13,7 +19,9 @@
 	text-align:center;
 	margin: 0 auto;
 	width: 100%;
-	background-color: #50cc30; 	/* må finne en farge som passer her */
+	background-color: green;
+	background-image: url('gress.jpg');
+	background-repeat: repeat-x;
 	
 	/* CSS 3.0 */
 	-webkit-border-top-right-radius: 10px;
@@ -23,19 +31,24 @@
 }
 
 #header a {
-	color: black;
+	color: white;
 }
 
 #menu a {
-	color: black;
+	color: white;
+	font-size: 150%;
+	margin-right: 2%;
+}
+
+#menu img {
+	border: none;
+
 }
 
 #content {
 	float: left;
 	width: 80%;
 	margin: 1%;
-	border-right: thick solid #50cc30;
-
 
 }
 
@@ -43,14 +56,17 @@
 	float: right;
 	width: 15%;
 	margin: 1%;
-	
+
+	border: thin solid black;
 }
 
 #footer {
 	clear: both;
 	text-align:center;
 	width: 100%;
-	background-color: #50cc30;
+	background-color: green;
+	background-image: url('gress.jpg');
+	background-repeat: repeat-x;
 	
 	/* CSS 3.0 */
 	-webkit-border-bottom-right-radius: 10px;
