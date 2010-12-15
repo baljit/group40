@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Velkommen til onsider.net - fotball på norsk</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+
+		<script type="text/javascript">
+			function pageLoad() {
+				hideOnLoad("england")
+				hideOnLoad("italia")
+				hideOnLoad("spania")
+			}
+			
+			window.onload=pageLoad;
+			
+			function hideOnLoad(liga) {
+				document.getElementById(liga).style.display = "none";
+			}
+
+			function toggle(liga) {
+				document.getElementById(liga).style.display = (document.getElementById(liga).style.display == "none") ? "" : "none";
+			}
+		</script>
+	</head>
+	<body>
+	
+	<div id="helesiden">
+		
+	<div id="container"> 	
+	
+			<div id="header">  <!-- Området på toppen av siden med logo/overskrift og meny -->
+				<a href="index.shtml"><h1>onsider.net</h1><p>- fotball på norsk</p></a>
+		
+				<div id="menu"> <!-- Meny -->
+					<a href="index.shtml" class="active">onsider.net</a>
+					<a href="nyheter.shtml"><img src="fotball_liten.png" /> Nyheter</a>
+					<a href="artikler.shtml"><img src="fotball_liten.png" /> Artikler</a>
+					<a href="diskusjon.php"><img src="fotball_liten.png" /> Diskusjon</a>
+					<a href="omoss.shtml"><img src="fotball_liten.png" /> Om oss</a>
+					
+				</div>
+				
+			</div>
+			
+				
+			<div id="content"> <!-- innholdsdelen av siden. alle artikler osv skal ligge her -->
+			
+				<h1>Velkommen osv.</h1>
+				
+				<p>
+				 Hei, og velkommen til onsider.net. Du vil her finne løpende oppdateringer om norsk og internasjonal fotball og artikler om fotball generelt. Naviger ved hjelp av menyen over eller trykk på onsider.net for å komme tilbake hit til hovedsiden. 
+				</p>
+				<p>
+				 Designet på siden er nå mer eller mindre ferdig og artikler bør dukke opp fortløpende. =)
+				</p> 
+				<p>
+				 mvh 
+				</p>
+				<p>
+				Gruppe 40
+				</p>
+				
+				<hr>
+				
+			</div>
+			
+			<div id="footer">		<!-- "menylinje" på bunnen av siden -->
+				<p>onsider.net &copy; 2010 - Gruppe 40 
+				<a href="http://validator.w3.org/check?uri=referer">HTML 5</a>
+				<a href="kontakt.shtml">Kontakt</a>
+				</p>
+			</div>
+			
+			<div id="update">
+			
+				<p>Sist oppdatert: <!--#echo var="LAST_MODIFIED" --> </p>
+				
+			</div>
+			
+	</div>
+		
+		<div id="sidebar"> <!-- Sidemeny f.eks. med siste resultater fra kamper eller nyhetsoppdateringer -->	
+			
+			<h4>&nbsp;Siste resultater:</h4><table>
+		<tr><td class="col2"><p><!--#include file="sidebar.html" --> 		
+		
+		</div>
+				
+	</div>
+		
+	</body>
+</html>
