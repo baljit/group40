@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Velkommen til onsider.net - fotball på norsk</title>
+		<link rel="stylesheet" type="text/css" href="../style.css" />
+
+		<script type="text/javascript">
+			function pageLoad() {
+				hideOnLoad("england")
+				hideOnLoad("italia")
+				hideOnLoad("spania")
+			}
+
+			window.onload=pageLoad;
+
+			function hideOnLoad(liga) {
+				document.getElementById(liga).style.display = "none";
+			}
+
+			function toggle(liga) {
+				document.getElementById(liga).style.display = (document.getElementById(liga).style.display == "none") ? "" : "none";
+			}
+		</script>
+	</head>
+	<body>
+
+	<div id="helesiden">
+
+	<div id="container">
+
+			<div id="header">  <!-- Området på toppen av siden med logo/overskrift og meny -->
+				<a href="../index.shtml"><h1>onsider.net</h1><p>- fotball på norsk</p></a>
+
+				<div id="menu"> <!-- Meny -->
+					<a href="../index.shtml">onsider.net</a>
+					<a href="../nyheter.shtml" class="active"><img src="../fotball_liten.png" /> Nyhetsarkiv</a>
+					<a href="../artikler.shtml"><img src="../fotball_liten.png" /> Artikler</a>
+					<a href="../diskusjon.php"><img src="../fotball_liten.png" /> Diskusjon</a>
+					<a href="../omoss.shtml"><img src="../fotball_liten.png" /> Om oss</a>
+
+				</div>
+
+			</div>
+
+
+			<div id="content"> <!-- innholdsdelen av siden. alle artikler osv skal ligge her -->
+
+				<h2> Avram Grant kan få sparken i West Ham </h2>
+
+				<p>
+				Hvis ikke <strong> Avram Grant</strong> begynner å levere noen 3-poengere for <strong>West Ham</strong> som sliter alene i <strong>bunnen</strong> av <strong>Premier League</strong> med fattige <strong>12 poeng på 17 kamper</strong>
+				kan det bety slutten for <strong>Grant</strong>, som klarte å bli tapene finalist i <strong>Champions League finalen</strong> med <strong>Chelsea. Avram Grant</strong> må nå bruke den hektiske romjulsperioden til
+				å bevise at han er rett mann for <strong>West Ham</strong> som både sliter sportslig og økonomisk. Men det er ikke helsvart for <strong> West Ham</strong> enda, det er kun 3 poeng opp til <strong>Wolverhampton</strong> som ligger på <strong>19.plass</strong>,
+				og kun 4 poeng opp for å komme seg ut av nedrykksplassene. Med seier i de neste kampene i juleperioden mot <strong>Blackburn, Fulham og Everton</strong>, burde det være mulighet til å ta noen poeng,
+				fordi de nevnte lagene har ikke overbevist veldig mye så langt i Premier League.</p>
+
+				<p>Hvis det skulle bli sånn at <strong>Avram Grant</strong> skulle få sparken, vil han bli den <strong>3. treneren</strong> i årets <strong>Premier League</strong> som får sparken. <strong>Chris Hughton(Newcastle) og Sam Allardyce(Blackburn)</strong> har allerede
+				fått sparken.
+
+
+				</p>
+
+				<hr>
+
+			</div>
+
+			<div id="footer">		<!-- "menylinje" på bunnen av siden -->
+				<p>onsider.net &copy; 2010 - Gruppe 40
+				<a href="http://validator.w3.org/check?uri=referer">HTML 5</a>
+				<a href="../kontakt.php">Kontakt</a>
+				</p>
+			</div>
+
+			<div id="update">
+
+				<p>Sist oppdatert: <!--#echo var="LAST_MODIFIED" --> </p>
+
+			</div>
+
+	</div>
+
+		<div id="sidebar"> <!-- Sidemeny f.eks. med siste resultater fra kamper eller nyhetsoppdateringer -->
+
+			<h4>&nbsp;Siste resultater:</h4><table>
+		<tr><td class="col2"><p><!--#include virtual="/sidebar.html" -->
+
+		</div>
+
+	</div>
+
+	</body>
+</html>

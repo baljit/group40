@@ -34,7 +34,7 @@
 		
 				<div id="menu"> <!-- Meny -->
 					<a href="index.shtml">onsider.net</a>
-					<a href="nyheter.shtml"><img src="fotball_liten.png" /> Nyheter</a>
+					<a href="nyheter.shtml"><img src="fotball_liten.png" /> Nyhetsarkiv</a>
 					<a href="artikler.shtml"><img src="fotball_liten.png" /> Artikler</a>
 					<a href="diskusjon.php" class="active"><img src="fotball_liten.png" /> Diskusjon</a>
 					<a href="omoss.shtml"><img src="fotball_liten.png" /> Om oss</a>
@@ -58,6 +58,7 @@
 					<p><input type="submit" value="Start Tråd"></p>
 				</form>	
 				
+				
 				<hr>
 				
 				<?php
@@ -75,7 +76,7 @@
 			<div id="footer">		<!-- "menylinje" på bunnen av siden -->
 				<p>onsider.net &copy; 2010 - Gruppe 40 
 				<a href="http://validator.w3.org/check?uri=referer">HTML 5</a>
-				<a href="kontakt.shtml">Kontakt</a>
+				<a href="kontakt.php">Kontakt</a>
 				</p>
 			</div>
 			

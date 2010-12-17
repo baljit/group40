@@ -34,7 +34,7 @@
 		
 				<div id="menu"> <!-- Meny -->
 					<a href="index.shtml">onsider.net</a>
-					<a href="nyheter.shtml"><img src="fotball_liten.png" /> Nyheter</a>
+					<a href="nyheter.shtml"><img src="fotball_liten.png" /> Nyhetsarkiv</a>
 					<a href="artikler.shtml"><img src="fotball_liten.png" /> Artikler</a>
 					<a href="diskusjon.php"><img src="fotball_liten.png" /> Diskusjon</a>
 					<a href="omoss.shtml" class="active"><img src="fotball_liten.png" /> Om oss</a>
@@ -45,7 +45,10 @@
 			
 				
 			<div id="content"> <!-- innholdsdelen av siden. alle artikler osv skal ligge her -->
-			
+				<h1>Om oss</h1>
+				<p>onsinder.net er en nyhetsportal for fotballinteresserte. Vi ønsker å formidle de viktigste nyheten fra europeisk fotball og kanskje noen ganger komme med egne syn på ting fra fotballverdenen</p>
+				<p>Nettsiden ble utviklet som en del av faget webprosjekt på Høgskolen i Oslo høsten 2010 av studentene Erling Fjelstad, Kim Jespersen, Baljit Sarai og Simon Nedremo. Tre av medlemmene i gruppen har stor interesse for fotball.</p>
+				<p>Dette samarbeidet mellom oss i "gruppe40" har resultert i et flott nettsted som virkelig reflekterer over hvor mye jobb vi har lagt i dette prosjektet. Hvert gruppemedlem har ca brukt +/- 7 timer i uken igjennom den 2 måneder lange prosjektperioden, bare sånn at noen som er/vil bli fotballinteresserte har noe å lese på. </p>
 				
 				<hr>
 				
@@ -54,7 +57,7 @@
 			<div id="footer">		<!-- "menylinje" på bunnen av siden -->
 				<p>onsider.net &copy; 2010 - Gruppe 40 
 				<a href="http://validator.w3.org/check?uri=referer">HTML 5</a>
-				<a href="kontakt.shtml">Kontakt</a>
+				<a href="kontakt.php">Kontakt</a>
 				</p>
 			</div>
 			

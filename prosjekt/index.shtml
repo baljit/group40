@@ -34,7 +34,7 @@
 		
 				<div id="menu"> <!-- Meny -->
 					<a href="index.shtml" class="active">onsider.net</a>
-					<a href="nyheter.shtml"><img src="fotball_liten.png" /> Nyheter</a>
+					<a href="nyheter.shtml"><img src="fotball_liten.png" /> Nyhetsarkiv</a>
 					<a href="artikler.shtml"><img src="fotball_liten.png" /> Artikler</a>
 					<a href="diskusjon.php"><img src="fotball_liten.png" /> Diskusjon</a>
 					<a href="omoss.shtml"><img src="fotball_liten.png" /> Om oss</a>
@@ -45,30 +45,108 @@
 			
 				
 			<div id="content"> <!-- innholdsdelen av siden. alle artikler osv skal ligge her -->
-			
-				<h1>Velkommen osv.</h1>
+					
+					
+					<h1>Velkommen til onsider.net</h1>					
+					<p>
+					 Hei, og velkommen til onsider.net. Du vil her finne løpende oppdateringer om norsk og internasjonal fotball og artikler om fotball generelt. Naviger ved hjelp av menyen over eller trykk på onsider.net for å komme tilbake hit til hovedsiden. 
+					</p>
+					<p>
+					 Designet på siden er nå mer eller mindre ferdig og artikler bør dukke opp fortløpende. =)
+					</p> 
+					<p>
+					 mvh<br><em>Gruppe 40</em>
+					</p>
 				
-				<p>
-				 Hei, og velkommen til onsider.net. Du vil her finne løpende oppdateringer om norsk og internasjonal fotball og artikler om fotball generelt. Naviger ved hjelp av menyen over eller trykk på onsider.net for å komme tilbake hit til hovedsiden. 
-				</p>
-				<p>
-				 Designet på siden er nå mer eller mindre ferdig og artikler bør dukke opp fortløpende. =)
-				</p> 
-				<p>
-				 mvh 
-				</p>
-				<p>
-				Gruppe 40
-				</p>
+					<hr>
+					
+				<div id="maincol1">
+								
+					<h2> <img src="thomas.jpg" alt="Bilde av Thomas Olsen" />Hva skal til for å bli en profersjonell fotballspiller? - Et intervju med Thomas Olsen - 16/12/10</h2>
+					<p>Thomas Olsen er en ung og profersjonell fotballspiller som spiller for Ham-Kam.
+						Denne unge lovende fotballspilleren som har en spissrolle i laget, scoret 26 mål denne..</p>
+					<p><a href="artikler/intervju.shtml">Les mer...</a></p>
+					<hr>
+								
+					<h2>Avram Grant kan få sparken i West Ham - 15/12/10</h2>
+					<p>Hvis ikke Avram Grant begynner å levere noen 3-poengere for West Ham som sliter alene i bunnen av Premier League med fattige 12 poeng på 17 kamper kan det bety slutten for Grant, som klarte å bli...</p>
+					<p><a href="artikler/artikkel4.shtml">Les mer...</a></p>
+					<hr>
+					
+					<h2><img src="zlatan.jpg" alt="Bilde av Zlatan" />Zlatan Ibrahimovic blir sammenlignet med Marco van Basten  - 15/12/10</h2>
+					<p>På framsiden av den Italienske storavisen Gazzetta Dello Sport har de manipulert et bilde med at den Svensk/bosniske superspissen tar på seg en maske av Marco van Basten, den tidligere...</p>
+					<p><a href="artikler/artikkel3.shtml">Les mer...</a></p>
+					<hr>
+					
+					<h2>Adriano kåret til Serie A's dårligste fotballspiller  - 15/12/10</h2>
+					<p>Nok en gang har brasillianske Adriano blitt kåret til Serie A's dårligste fotballspiller, dette er faktisk 3. gang. Mandag 13.desember ble han tildelt den lite attraktive prisen "Golden Bin" eller "gullsøppelbøtta" som det...</p>
+					<p><a href="artikler/artikkel5.shtml">Les mer...</a></p>
+					<hr>
+					
+					<h2>Danske OB starter opprydding i spillerstallen  - 15/12/10</h2>
+					<p>Når Danske OB i kveld løper ut på banen til årets siste kamp i Europa League Gruppe C er det viten om at nesten halvdelen av spillene på førsteholdet er borte etter jul. OB ønsker på sikt å satse mer på egen talentutvikling og ønsker derfor...</p>
+					<p><a href="artikler/artikkel8.shtml">Les mer...</a></p>
+					<hr>
+					
+					<h2>Har dansk fotball hellet med seg i kveld - 15/12/10</h2>
+					<p>I kveld kan det bli avgjort om Danmark neste år før en direkte plass i Champions League i tillegg til en ekstra kvalifikasjonsplass. Danmark ligger nemlig på en 12 plass på UEFAs koeffisient liste. Belgia på 13. plass er det eneste land med...</p>
+					<p><a href="artikler/artikkel9.shtml">Les mer...</a></p>
+					<hr>
+					
+					
+				</div>
 				
-				<hr>
+					
+				<div id="maincol2">
 				
+					<h2>Refleksjoner fra en IKKE-fotballidiot 17/12-10</h2>
+					<p>Fotball for meg har alltid vært en lek mer enn en sport.  Siden jeg har vært liten har jeg sett på denne 
+aktiviteten som en samler. En aktivitet som er universal på så mange måter at jeg kan ikke forestille meg
+ noen andre aktiviteter som kan samle verdens barn og snakke deres språk. Jeg har  bodd I India og norge 
+og litt andre forskjellig steder . Det er mange forskjelige...</p>
+					<p><a href="artikler/fotball.shtml">Les mer...</a></p>
+					<hr>
+				
+					<h2>Nyttige lenker for oss med fotball som interesse - 16/12/10 <img src="hyperlink.jpg" alt="Bilde Hyperlink" /></h2>
+					<p>Vi har samlet et knippe lenker hvor du kan finne siste nytt fra ligaene i norden pluss de store ligaene i Europa...</p>
+					<p><a href="artikler/lenker.shtml">Les mer...</a></p>
+					<hr>
+					
+					<h2>Solskjær kan vinne Tippeligaen - 15/12/10</h2>
+					<p>At Ole Gunnar Solskjær, den tidligere Manchester Untied spilleren og treneren(for reservelaget) kan vinne Tippeligaen mener nåvæerende Vålerenga trener Martin Andresen. Grunnen til dette...</p>
+					<p><a href="artikler/artikkel1.shtml">Les mer...</a></p>
+					<hr>
+					
+					<h2>Huseklepp kan bli solgt nå i Januar  - 15/12/10</h2>
+					<p>Erik Huseklepp kan bli solgt nå i januar. Endelig kan vel ganske mange si, fordi han har jo blitt linket til flere klubber i Europa blant annet Molde, FC København, Mainz , Blackburn og flere. Men den mest seriøse interessen skal nå være...</p>
+					<p><a href="artikler/artikkel2.shtml">Les mer...</a></p>
+					<hr>
+					
+					<h2>Italienske Rossi ble helten for spanske Villarreal  - 15/12/10</h2>
+					<p>Igjen stod Giuseppe Rossi frem som den store helt for Villarreal, da Villarreal sikret seg gruppeseieren i Gruppe D i Europa League. Onsdag kveld vant de 2-1 på utebane over belgiske Club Brügge. Club Brügge startede ellers best da...</p>
+					<p><a href="artikler/artikkel6.shtml">Les mer...</a></p>
+					<hr>
+					
+					<h2>Svenske klubber bestemmer selv motstander i seriestarten - 15/12/10</h2>
+					<p>I Sverige har klubbene i Premier Division for først gang selv vært med på å bestemme hvilken motstander i ønsker å møte i serieoppstarten. Istedet for den sedvanlige loddtrekningen har klubbene i fellesskap med det svenske forbundet valgt...</p>
+					<p><a href="artikler/artikkel7.shtml">Les mer...</a></p>
+					<hr>
+					
+					<h2>Spania gjør det igjen - 15/12/10</h2>
+					<p>Verdens og Europa mester Spania har klart det utrolige og igjen oppnådd å få tittelen Team of the Year" for tredje på rad av FIFA. Onsdagens rangeringsliste som FIFA sendte ut gjenspeiler en klar dominans av årets finalister. Spania fører listen klart med hele 1887 poeng. På andreplassen...</p>
+					<p><a href="artikler/artikkel10.shtml">Les mer...</a></p>
+					<hr>
+				
+				</div>
+				
+		
 			</div>
+			
 			
 			<div id="footer">		<!-- "menylinje" på bunnen av siden -->
 				<p>onsider.net &copy; 2010 - Gruppe 40 
 				<a href="http://validator.w3.org/check?uri=referer">HTML 5</a>
-				<a href="kontakt.shtml">Kontakt</a>
+				<a href="kontakt.php">Kontakt</a>
 				</p>
 			</div>
 			

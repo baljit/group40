@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Velkommen til onsider.net - fotball på norsk</title>
+		<link rel="stylesheet" type="text/css" href="../style.css" />
+
+		<script type="text/javascript">
+			function pageLoad() {
+				hideOnLoad("england")
+				hideOnLoad("italia")
+				hideOnLoad("spania")
+			}
+			
+			window.onload=pageLoad;
+			
+			function hideOnLoad(liga) {
+				document.getElementById(liga).style.display = "none";
+			}
+
+			function toggle(liga) {
+				document.getElementById(liga).style.display = (document.getElementById(liga).style.display == "none") ? "" : "none";
+			}
+		</script>
+	</head>
+	<body>
+	
+	<div id="helesiden">
+		
+	<div id="container"> 	
+	
+			<div id="header">  <!-- Området på toppen av siden med logo/overskrift og meny -->
+				<a href="../index.shtml"><h1>onsider.net</h1><p>- fotball på norsk</p></a>
+		
+				<div id="menu"> <!-- Meny -->
+					<a href="../index.shtml">onsider.net</a>
+					<a href="../nyheter.shtml"><img src="../fotball_liten.png" /> Nyhetsarkiv</a>
+					<a href="../artikler.shtml" class="active"><img src="../fotball_liten.png" /> Artikler</a>
+					<a href="../diskusjon.php"><img src="../fotball_liten.png" /> Diskusjon</a>
+					<a href="../omoss.shtml"><img src="../fotball_liten.png" /> Om oss</a>
+					
+				</div>
+				
+			</div>
+			
+				
+			<div id="content"> <!-- innholdsdelen av siden. alle artikler osv skal ligge her -->
+				<h2>Refleksjoner fra en <strong>IKKE-</strong>fotballidiot 17/12-10</h2>
+				
+				<p>Fotball for meg har alltid vært en lek mer enn en sport.  Siden jeg har vært liten har jeg sett på denne 
+aktiviteten som en samler. En aktivitet som er universal på så mange måter at jeg kan ikke forestille meg
+ noen andre aktiviteter som kan samle verdens barn og snakke deres språk. Jeg har  bodd I India og norge 
+og litt andre forskjellig steder . Det er mange forskjelige kulturer I mellom oss men hvis du setter en 
+fotball blant noen unger som har lært seg å gå og som aldri har sett fotbal på TV eller andre steder, 
+de bare “vet” hva og hvordan de kan leke med den. Dette kan jeg ikke si om noen andre aktiviteter. En 
+ball er alt du trenger for og samle en gruppe barn eller samle hele verden til å delta I en kunkuranse
+ reprensentert med et lag fra hvert land. </p>
+ 
+				<p>Denne sporten (som vi alle kaller det) er ikke bare en samler men kan ha forskjellige betydninger for forskjellige
+ folk. For europa betyr den en konkurranse med en sterk følse av nasjonal stolthet. I afrika kan den bety
+ en håp ut av fatidic  . For kina og  India kan den bety en mulighet til og vise fram at de er på vei til en
+ bedre tid (hvis de nå bare kan få til et bra lag snart). Av alle “ball spill” er denne en av de første som 
+ble “oppfunnet”.  </p>
+				
+				<p>Fotball som en karriere er en hel annen historie. Siden den er den mest populere sporten I verden er det ikke
+ så lett og konkurrere I den. Men å sparke en ball og løpe er I oss alle til en hvis grad. jeg smiler inni meg
+ når jeg ser at den morsomste og enkleste aktiviteten (løpe og sparke en ball) har blitt til en arena for
+ kunkuranse for  milioner av folk verden rundt. Alle land har en nasjonal sport men fotball er denne planetens
+ felles sport .  Stor makter kan tape og fattig land kan vinne. Politiske, militære , og økonomiske forskjeller
+ har ingen effekt på denne sporten (som jeg ikke kan si om alle sport). </p>
+				
+				<p>Land som har det vanskelig økonomisk (brazil , agentina osv ) har alltid kunne sette sine vanskeligheter
+ til siden og hente inspirasjon og håp fra denne sporten. </p>
+				
+				<p>Jeg så på VM I år  og jeg hadde aldri trod at 11 nord koreanske menn kunne samles sammen på et sted som 11
+ Amerikanske menn for å delta I en lek. For når jeg ser 11 men fra et land som lett kan kalles for det mest perfekte
+ totalitære diktatur løpe rundt på en gressplen for å sparke ball med 11 andre menn fra et land som representerer
+  forsvarer av den frie verden , lek er det jeg ser. </p>
+				
+			<hr>
+			
+			</div>
+			
+			<div id="footer">		<!-- "menylinje" på bunnen av siden -->
+				<p>onsider.net &copy; 2010 - Gruppe 40 
+				<a href="http://validator.w3.org/check?uri=referer">HTML 5</a>
+				<a href="../kontakt.php">Kontakt</a>
+				</p>
+			</div>
+			
+			<div id="update">
+			
+				<p>Sist oppdatert: <!--#echo var="LAST_MODIFIED" --> </p>
+				
+			</div>
+			
+	</div>
+		
+		<div id="sidebar"> <!-- Sidemeny f.eks. med siste resultater fra kamper eller nyhetsoppdateringer -->	
+			
+			<h4>&nbsp;Siste resultater:</h4><table>
+		<tr><td class="col2"><p><!--#include file="sidebar.html" --> 		
+		
+		</div>
+				
+	</div>
+		
+	</body>
+</html>

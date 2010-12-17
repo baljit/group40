@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Velkommen til onsider.net - fotball på norsk</title>
+		<link rel="stylesheet" type="text/css" href="../style.css" />
+
+		<script type="text/javascript">
+			function pageLoad() {
+				hideOnLoad("england")
+				hideOnLoad("italia")
+				hideOnLoad("spania")
+			}
+			
+			window.onload=pageLoad;
+			
+			function hideOnLoad(liga) {
+				document.getElementById(liga).style.display = "none";
+			}
+
+			function toggle(liga) {
+				document.getElementById(liga).style.display = (document.getElementById(liga).style.display == "none") ? "" : "none";
+			}
+		</script>
+	</head>
+	<body>
+	
+	<div id="helesiden">
+		
+	<div id="container"> 	
+	
+			<div id="header">  <!-- Området på toppen av siden med logo/overskrift og meny -->
+				<a href="../index.shtml"><h1>onsider.net</h1><p>- fotball på norsk</p></a>
+		
+				<div id="menu"> <!-- Meny -->
+					<a href="../index.shtml">onsider.net</a>
+					<a href="../nyheter.shtml"><img src="../fotball_liten.png" /> Nyhetsarkiv</a>
+					<a href="../artikler.shtml" class="active"><img src="../fotball_liten.png" /> Artikler</a>
+					<a href="../diskusjon.php"><img src="../fotball_liten.png" /> Diskusjon</a>
+					<a href="../omoss.shtml"><img src="../fotball_liten.png" /> Om oss</a>
+					 
+				</div>
+				
+			</div>
+			
+				
+			<div id="content"> <!-- innholdsdelen av siden. alle artikler osv skal ligge her -->
+			
+			<h2>Nyttige lenker for oss med fotball som interesse </h2><img src="../hyperlink.jpg" alt="Bilde Hyperlink" />
+
+				<p>Norge:
+					<p><a href="http://www.vg.no/sport/fotball/">http://www.vg.no/sport/fotball/</a></p>
+					<p><a href="http://www.dagbladet.no/fotball/">http://www.dagbladet.no/fotball/</a></p>
+					<p><a href="http://www.nettavisen.no/sport/fotball/">http://www.nettavisen.no/sport/fotball/</a></p>
+			<hr>
+				<p>Danmark:</p>
+					<p><a href="http://www.sporten.dk/sport/fodbold">http://www.sporten.dk/sport/fodbold</a></p>
+					<p><a href="http://sporten.tv2.dk/fodbold/?menu">http://sporten.tv2.dk/fodbold/?menu</a></p>
+			<hr>
+				<p>Sverige:</p>
+					<p><a href="http://www.aftonbladet.se/sportbladet/fotboll/">http://www.aftonbladet.se/sportbladet/fotboll/</a></p>
+					<p><a href="http://fotboll.expressen.se/">http://fotboll.expressen.se/</a></p>
+					<p><a href="http://www.dn.se/sport/fotboll/">http://www.dn.se/sport/fotboll/</a></p>
+			<hr>
+				<p>England:</p>
+					<p><a href="http://www.goal.com/en/">http://www.goal.com/en/</a></p>
+					<p><a href="http://www.thesun.co.uk/sol/homepage/sport/football/">http://www.thesun.co.uk/sol/homepage/sport/football/</a></p>
+					<p><a href="http://www.mirror.co.uk/sport/">http://www.mirror.co.uk/sport/</a></p>
+			<hr>
+				<p>Italia:</p>
+					<p><a href="http://english.gazzetta.it/Football/">http://english.gazzetta.it/Football/</a></p>
+					<p><a href="http://www.lastampa.it/sport/">http://www.lastampa.it/sport/</a></p>
+					<p><a href="http://www.goal.com/it">http://www.goal.com/it</a></p>
+			<hr>	
+				<p>Spania:</p>
+					<p><a href="http://www.elpais.com/deportes/futbol/">http://www.elpais.com/deportes/futbol/</a></p>
+					<p><a href="http://www.sport.es/default.asp?idpublicacio_PK=44&amp;idioma=CAS&amp;t=1&amp;idseccio_PK=805">http://www.sport.es/default.asp?idpublicacio_PK=44&amp;idioma=CAS&amp;t=1&amp;idseccio_PK=805</a></p>
+					<p><a href="http://www.elmundodeportivo.es/futbol/index.html">http://www.elmundodeportivo.es/futbol/index.html</a></p>
+			<hr>
+				<p>Tyskland:</p>
+					<p><a href="http://www.bild.de/BILD/sport/fussball/home/fussball.html">http://www.bild.de/BILD/sport/fussball/home/fussball.html</a></p>
+					<p><a href="http://www.spiegel.de/sport/fussball/">http://www.spiegel.de/sport/fussball/</a></p>
+					<p><a href="http://www.welt.de/sport/fussball/">http://www.welt.de/sport/fussball/</a></p>
+			<hr>
+			
+			<p>Diskuter denne artikkelen eller gi oss forslag til andre sider som bør være med på diskusjonsdelen av siden <a href="http://www.onsider.net/msg.php?id=5">Nyttige lenker for oss med fotball som interesse</a></p>
+			
+			<hr>
+			</div>
+			
+			<div id="footer">		<!-- "menylinje" på bunnen av siden -->
+				<p>onsider.net &copy; 2010 - Gruppe 40 
+				<a href="http://validator.w3.org/check?uri=referer">HTML 5</a>
+				<a href="../kontakt.shtml">Kontakt</a>
+				</p>
+			</div>
+			
+			<div id="update">
+			
+				<p>Sist oppdatert: <!--#echo var="LAST_MODIFIED" --> </p>
+				
+			</div>
+			
+	</div>
+		
+		<div id="sidebar"> <!-- Sidemeny f.eks. med siste resultater fra kamper eller nyhetsoppdateringer -->	
+			
+			<h4>&nbsp;Siste resultater:</h4><table>
+		<tr><td class="col2"><p><!--#include virtual="/sidebar.html" --> 		
+		
+		</div>
+				
+	</div>
+		
+	</body>
+</html>

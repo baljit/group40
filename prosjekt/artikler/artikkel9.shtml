@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Velkommen til onsider.net - fotball på norsk</title>
+		<link rel="stylesheet" type="text/css" href="../style.css" />
+
+		<script type="text/javascript">
+			function pageLoad() {
+				hideOnLoad("england")
+				hideOnLoad("italia")
+				hideOnLoad("spania")
+			}
+
+			window.onload=pageLoad;
+
+			function hideOnLoad(liga) {
+				document.getElementById(liga).style.display = "none";
+			}
+
+			function toggle(liga) {
+				document.getElementById(liga).style.display = (document.getElementById(liga).style.display == "none") ? "" : "none";
+			}
+		</script>
+	</head>
+	<body>
+
+	<div id="helesiden">
+
+	<div id="container">
+
+			<div id="header">  <!-- Området på toppen av siden med logo/overskrift og meny -->
+				<a href="../index.shtml"><h1>onsider.net</h1><p>- fotball på norsk</p></a>
+
+				<div id="menu"> <!-- Meny -->
+					<a href="../index.shtml">onsider.net</a>
+					<a href="../nyheter.shtml" class="active"><img src="../fotball_liten.png" /> Nyhetsarkiv</a>
+					<a href="../artikler.shtml"><img src="../fotball_liten.png" /> Artikler</a>
+					<a href="../diskusjon.php"><img src="../fotball_liten.png" /> Diskusjon</a>
+					<a href="../omoss.shtml"><img src="../fotball_liten.png" /> Om oss</a>
+
+				</div>
+
+			</div>
+
+
+			<div id="content"> <!-- innholdsdelen av siden. alle artikler osv skal ligge her -->
+
+				<h2>Har dansk fotball hellet med seg i kveld</h2>
+
+				<p>
+				I kveld kan det bli avgjort om Danmark neste år før en direkte plass i Champions League i tillegg til en ekstra kvalifikasjonsplass.
+				Danmark ligger nemlig på en 12 plass på UEFAs koeffisient liste. Belgia på 13. plass er det eneste land med mulighet for at hente Danmark på listen og i kveld kan det bli avgjort.
+
+				På grunn av at Belgia har to hold som spiller i kveld har de teoretiske muligheter for å hente Danmark på listen i løpet av våren,
+				hvis begge de belgiske lag skulle klare å kvalifisere seg videre i kveldens Europa Leagues kampe. Danmark har bare OB igjen av de danske klubber i Europa League, men OB har ingen mulighet for å kvalifisere seg videre til vårens kampe.
+				</p>
+
+				<p>
+				Den belgiske klubben Gent er plassert på en 2. plass i gruppe C, og skal møde det franske topphold Lille i kveld i en kamp hvor Gent kan nøyes med uavgjort for å gå videre.
+				Anderlecht der skal møte Hajduk Split har mulighet for å gå videre i Gruppe D. Men er da avhengig av seier i tillegg til at AEK Athens må tape på hjemmebane til Zenit St Petersburg.
+				</p>
+
+
+
+				<hr>
+
+			</div>
+
+			<div id="footer">		<!-- "menylinje" på bunnen av siden -->
+				<p>onsider.net &copy; 2010 - Gruppe 40
+				<a href="http://validator.w3.org/check?uri=referer">HTML 5</a>
+				<a href="../kontakt.php">Kontakt</a>
+				</p>
+			</div>
+
+			<div id="update">
+
+				<p>Sist oppdatert: <!--#echo var="LAST_MODIFIED" --> </p>
+
+			</div>
+
+	</div>
+
+		<div id="sidebar"> <!-- Sidemeny f.eks. med siste resultater fra kamper eller nyhetsoppdateringer -->
+
+			<h4>&nbsp;Siste resultater:</h4><table>
+		<tr><td class="col2"><p><!--#include virtual="/sidebar.html" -->
+
+		</div>
+
+	</div>
+
+	</body>
+</html>

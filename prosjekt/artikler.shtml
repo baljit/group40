@@ -34,7 +34,7 @@
 		
 				<div id="menu"> <!-- Meny -->
 					<a href="index.shtml">onsider.net</a>
-					<a href="nyheter.shtml"><img src="fotball_liten.png" /> Nyheter</a>
+					<a href="nyheter.shtml"><img src="fotball_liten.png" /> Nyhetsarkiv</a>
 					<a href="artikler.shtml" class="active"><img src="fotball_liten.png" /> Artikler</a>
 					<a href="diskusjon.php"><img src="fotball_liten.png" /> Diskusjon</a>
 					<a href="omoss.shtml"><img src="fotball_liten.png" /> Om oss</a>
@@ -46,15 +46,30 @@
 				
 			<div id="content"> <!-- innholdsdelen av siden. alle artikler osv skal ligge her -->
 			
-				
+				<h4> Refleksjoner fra en IKKE-fotballidiot 17/12-10</h4> 
+				<p>Fotball for meg har alltid vært en lek mer enn en sport.  Siden jeg har vært liten har jeg sett på denne 
+aktiviteten som en samler. En aktivitet som er universal på ...</p>
+				<p><a href="artikler/fotball.shtml">Les mer...</a></p>
 				<hr>
+				
+				<h4> Nyttige lenker for oss med fotball som interesse - 16/12/10</h4> 
+				<p>Vi har samlet et knippe lenker hvor du kan finne siste nytt fra ligaene i norden pluss de store ligaene i Europa...</p>
+				<p><a href="artikler/lenker.shtml">Les mer...</a></p>
+				<hr>
+			
+				<h4> Hva skal til for å bli en profersjonell fotballspiller? - Et intervju med Thomas Olsen - 16/12/10</h4> 
+				<p>Thomas Olsen er en ung og profersjonell fotballspiller som spiller for Ham-Kam.
+				Denne unge lovende fotballspilleren som har en spissrolle i laget, scoret 26 mål denne..</p>
+				<p><a href="artikler/intervju.shtml">Les mer...</a></p>
+				<hr>
+			
 				
 			</div>
 			
 			<div id="footer">		<!-- "menylinje" på bunnen av siden -->
 				<p>onsider.net &copy; 2010 - Gruppe 40 
 				<a href="http://validator.w3.org/check?uri=referer">HTML 5</a>
-				<a href="kontakt.shtml">Kontakt</a>
+				<a href="kontakt.php">Kontakt</a>
 				</p>
 			</div>
 			

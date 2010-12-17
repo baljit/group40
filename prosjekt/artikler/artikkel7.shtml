@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Velkommen til onsider.net - fotball på norsk</title>
+		<link rel="stylesheet" type="text/css" href="../style.css" />
+
+		<script type="text/javascript">
+			function pageLoad() {
+				hideOnLoad("england")
+				hideOnLoad("italia")
+				hideOnLoad("spania")
+			}
+			
+			window.onload=pageLoad;
+			
+			function hideOnLoad(liga) {
+				document.getElementById(liga).style.display = "none";
+			}
+
+			function toggle(liga) {
+				document.getElementById(liga).style.display = (document.getElementById(liga).style.display == "none") ? "" : "none";
+			}
+		</script>
+	</head>
+	<body>
+	
+	<div id="helesiden">
+		
+	<div id="container"> 	
+	
+			<div id="header">  <!-- Omr�det p� toppen av siden med logo/overskrift og meny -->
+				<a href="../index.shtml"><h1>onsider.net</h1><p>- fotball på norsk</p></a>
+		
+				<div id="menu"> <!-- Meny -->
+					<a href="../index.shtml">onsider.net</a>
+					<a href="../nyheter.shtml" class="active"><img src="../fotball_liten.png" /> Nyhetsarkiv</a>
+					<a href="../artikler.shtml"><img src="../fotball_liten.png" /> Artikler</a>
+					<a href="../diskusjon.php"><img src="../fotball_liten.png" /> Diskusjon</a>
+					<a href="../omoss.shtml"><img src="../fotball_liten.png" /> Om oss</a>
+					 
+				</div>
+				
+			</div>
+			
+				
+			<div id="content"> <!-- innholdsdelen av siden. alle artikler osv skal ligge her -->
+			
+					<h2> Svenske klubber bestemmer selv motstander i seriestarten. </h2>
+
+				<p>
+				I <strong>Sverige</strong> har klubbene i <strong>Premier Division</strong> for først gang selv vært med på å bestemme hvilken motstander i ønsker å møte i serieoppstarten. 
+				Istedet for den sedvanlige loddtrekningen har klubbene i fellesskap med det svenske forbundet valgt å sette opp det kampoppsettet som man mener vil skape mest publikumsinteresse.
+    				</p>
+
+				<p>	
+				Etter flere år med dårlig publikumsoppmøte på vårparten har forbundet valgt en prøveordning hvor klubbene i fellesskap ble enige om hvem som skulle møte hvem i serieåpningen, hvilket har gitt noen interessante oppgjør for publikum.
+ 				Mandag 4 april kl 20.00 vil vi allerede kunne få oppleve en av de svenske klassikere der <strong>Djurgården møter AIK på Råsunda</strong>, i <strong>Skåne</strong> blir det også storoppgjør når <strong>Trelleborg møter sin drømmemotstander Malmö FF.</strong>.
+				De andre interessante oppgjørene i denne runden vil være:
+ 				<strong>Syrisk FC - Gefle IF FF
+				Mjöllby AIF - Helsingborgs IF
+				IFK Göteborg - Örebro 
+				IF Elfsborg - BK Höcken 
+				Halmstads BK - Kalmar FF Halmstad  
+				IFK Norrköping FK - GAIS</strong> 
+			 	<p>			
+				
+
+				<p>
+ 				Da vil tiden vise om dette er noen god ide eller det hadde vært bedre å la tilfeldighetene råde. Uansett om man synes dette er riktig eller feil måte å bestemme kampoppsettet på kan man ikke annet enn glede seg over det svenske forbundet som tør å tenke nytt for å skape mere publikumsinteresse.  
+				</p>
+
+				<hr>
+				
+			</div>
+			
+			<div id="footer">		<!-- "menylinje" p� bunnen av siden -->
+				<p>onsider.net &copy; 2010 - Gruppe 40 
+				<a href="http://validator.w3.org/check?uri=referer">HTML 5</a>
+				<a href="../kontakt.php">Kontakt</a>
+				</p>
+			</div>
+			
+			<div id="update">
+			
+				<p>Sist oppdatert: <!--#echo var="LAST_MODIFIED" --> </p>
+				
+			</div>
+			
+	</div>
+		
+		<div id="sidebar"> <!-- Sidemeny f.eks. med siste resultater fra kamper eller nyhetsoppdateringer -->	
+			
+			<h4>&nbsp;Siste resultater:</h4><table>
+		<tr><td class="col2"><p><!--#include virtual="/sidebar.html" --> 		
+		
+		</div>
+				
+	</div>
+		
+	</body>
+</html>

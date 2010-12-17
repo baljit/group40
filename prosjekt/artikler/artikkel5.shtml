@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Velkommen til onsider.net - fotball på norsk</title>
+		<link rel="stylesheet" type="text/css" href="../style.css" />
+
+		<script type="text/javascript">
+			function pageLoad() {
+				hideOnLoad("england")
+				hideOnLoad("italia")
+				hideOnLoad("spania")
+			}
+
+			window.onload=pageLoad;
+
+			function hideOnLoad(liga) {
+				document.getElementById(liga).style.display = "none";
+			}
+
+			function toggle(liga) {
+				document.getElementById(liga).style.display = (document.getElementById(liga).style.display == "none") ? "" : "none";
+			}
+		</script>
+	</head>
+	<body>
+
+	<div id="helesiden">
+
+	<div id="container">
+
+			<div id="header">  <!-- Området på toppen av siden med logo/overskrift og meny -->
+				<a href="../index.shtml"><h1>onsider.net</h1><p>- fotball på norsk</p></a>
+
+				<div id="menu"> <!-- Meny -->
+					<a href="../index.shtml">onsider.net</a>
+					<a href="../nyheter.shtml" class="active"><img src="../fotball_liten.png" /> Nyhetsarkiv</a>
+					<a href="../artikler.shtml"><img src="../fotball_liten.png" /> Artikler</a>
+					<a href="../diskusjon.php"><img src="../fotball_liten.png" /> Diskusjon</a>
+					<a href="../omoss.shtml"><img src="../fotball_liten.png" /> Om oss</a>
+
+				</div>
+
+			</div>
+
+
+			<div id="content"> <!-- innholdsdelen av siden. alle artikler osv skal ligge her -->
+
+				<h2> Adriano kåret til Serie A's dårligste fotballspiller </h2>
+
+				<p>
+				Nok en gang har brasillianske Adriano blitt kåret til Serie A's dårligste fotballspiller, dette er faktisk 3. gang.
+				Mandag 13.desember ble han tildelt den lite attraktive prisen "Golden Bin" eller "gullsøppelbøtta" som det blir oversatt til på norsk.
+				</p>
+
+				<p> Han ble hentet til Roma før denne sesongen og har ikke vist seg til å bli noe stor suksess. Adriano har tidligere spilt for rivalen Inter, og vært sånn midt på treet god,
+				selv om han har blitt tildelt den "Golden Bin" prisen to ganger da han spilte der. <p>
+
+				<p>
+				Adriano fikk klart flest stemmer i denne kåringen, nummer 2 ble Juventus-spissen Amauri, og nummer 3 ble den beste spilleren i verden i 2005, Ronaldinho som spiller for AC Milan.
+
+				</p>
+
+				<hr>
+
+			</div>
+
+			<div id="footer">		<!-- "menylinje" på bunnen av siden -->
+				<p>onsider.net &copy; 2010 - Gruppe 40
+				<a href="http://validator.w3.org/check?uri=referer">HTML 5</a>
+				<a href="../kontakt.php">Kontakt</a>
+				</p>
+			</div>
+
+			<div id="update">
+
+				<p>Sist oppdatert: <!--#echo var="LAST_MODIFIED" --> </p>
+
+			</div>
+
+	</div>
+
+		<div id="sidebar"> <!-- Sidemeny f.eks. med siste resultater fra kamper eller nyhetsoppdateringer -->
+
+			<h4>&nbsp;Siste resultater:</h4><table>
+		<tr><td class="col2"><p><!--#include virtual="/sidebar.html" -->
+
+		</div>
+
+	</div>
+
+	</body>
+</html>

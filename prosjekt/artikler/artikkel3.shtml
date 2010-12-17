@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Velkommen til onsider.net - fotball på norsk</title>
+		<link rel="stylesheet" type="text/css" href="../style.css" />
+
+		<script type="text/javascript">
+			function pageLoad() {
+				hideOnLoad("england")
+				hideOnLoad("italia")
+				hideOnLoad("spania")
+			}
+
+			window.onload=pageLoad;
+
+			function hideOnLoad(liga) {
+				document.getElementById(liga).style.display = "none";
+			}
+
+			function toggle(liga) {
+				document.getElementById(liga).style.display = (document.getElementById(liga).style.display == "none") ? "" : "none";
+			}
+		</script>
+	</head>
+	<body>
+
+	<div id="helesiden">
+
+	<div id="container">
+
+			<div id="header">  <!-- Området på toppen av siden med logo/overskrift og meny -->
+				<a href="/index.shtml"><h1>onsider.net</h1><p>- fotball på norsk</p></a>
+
+				<div id="menu"> <!-- Meny -->
+					<a href="../index.shtml">onsider.net</a>
+					<a href="../nyheter.shtml" class="active"><img src="../fotball_liten.png" /> Nyhetsarkiv</a>
+					<a href="../artikler.shtml"><img src="../fotball_liten.png" /> Artikler</a>
+					<a href="../diskusjon.php"><img src="../fotball_liten.png" /> Diskusjon</a>
+					<a href="../omoss.shtml"><img src="../fotball_liten.png" /> Om oss</a>
+
+				</div>
+
+			</div>
+
+
+			<div id="content"> <!-- innholdsdelen av siden. alle artikler osv skal ligge her -->
+
+				<h2> Zlatan Ibrahimovic blir sammenlignet med Marco van Basten </h2>
+
+				<p><img src="../zlatan.jpg" alt="Bilde av Zlatan" />
+				På framsiden av den Italienske storavisen Gazzetta Dello Sport har de manipulert et bilde med at den Svensk/bosniske superspissen
+				tar på seg en maske av <strong>Marco van Basten</strong>, den tidligere storscoreren for <strong>AC Milan</strong> på 80- og 90-tallet. Den svenske klubbnomaden
+				har spilt i de tre største klubbene i Italia(Juventus, Inter, AC Milan) og er derfor veldig upopulær i store deler av <strong>Italia</strong>.
+				Men de fotballferdighetene <strong>Zlatan</strong> viser nå for <strong>AC Milan</strong> er det nesten umulig å ikke bli glad i han, fordi han storspiller virkelig i den rød/svarte-stripete drakten.
+				Han har til og med samme scoringssnitt som <strong>Marco van Basten</strong> hadde i løpet av alle sesongene sine i Milano. <strong>van Basten</strong> hadde <strong>90 mål</strong> fordelt over på seks sesonger fra <strong>1987 - 1993</strong>
+				<strong>Zlatan</strong>, som kom til <strong> AC Milan</strong> før denne sesongen på lån fra <strong>Barcelona</strong>, har allerede allerede vist seg å være en god signering. Svensken har hjulpet klubben sin til toppen av <strong>Serie A</strong> og videre cup spill i <strong>Champions League</strong>.
+				<strong>Milan</strong> topper serien med seks poeng foran <strong>Juventus</strong>.
+
+
+				</p>
+
+				<hr>
+
+			</div>
+
+			<div id="footer">		<!-- "menylinje" på bunnen av siden -->
+				<p>onsider.net &copy; 2010 - Gruppe 40
+				<a href="http://validator.w3.org/check?uri=referer">HTML 5</a>
+				<a href="../kontakt.php">Kontakt</a>
+				</p>
+			</div>
+
+			<div id="update">
+
+				<p>Sist oppdatert: <!--#echo var="LAST_MODIFIED" --> </p>
+
+			</div>
+
+	</div>
+
+		<div id="sidebar"> <!-- Sidemeny f.eks. med siste resultater fra kamper eller nyhetsoppdateringer -->
+
+			<h4>&nbsp;Siste resultater:</h4><table>
+		<tr><td class="col2"><p><!--#include virtual="/sidebar.html" -->
+
+		</div>
+
+	</div>
+
+	</body>
+</html>

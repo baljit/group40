@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Velkommen til onsider.net - fotball på norsk</title>
+		<link rel="stylesheet" type="text/css" href="../style.css" />
+
+		<script type="text/javascript">
+			function pageLoad() {
+				hideOnLoad("england")
+				hideOnLoad("italia")
+				hideOnLoad("spania")
+			}
+			
+			window.onload=pageLoad;
+			
+			function hideOnLoad(liga) {
+				document.getElementById(liga).style.display = "none";
+			}
+
+			function toggle(liga) {
+				document.getElementById(liga).style.display = (document.getElementById(liga).style.display == "none") ? "" : "none";
+			}
+		</script>
+	</head>
+	<body>
+	
+	<div id="helesiden">
+		
+	<div id="container"> 	
+	
+			<div id="header">  <!-- Omr�det p� toppen av siden med logo/overskrift og meny -->
+				<a href="../index.shtml"><h1>onsider.net</h1><p>- fotball på norsk</p></a>
+		
+				<div id="menu"> <!-- Meny -->
+					<a href="../index.shtml">onsider.net</a>
+					<a href="../nyheter.shtml" class="active"><img src="../fotball_liten.png" /> Nyhetsarkiv</a>
+					<a href="../artikler.shtml"><img src="../fotball_liten.png" /> Artikler</a>
+					<a href="../diskusjon.php"><img src="../fotball_liten.png" /> Diskusjon</a>
+					<a href="../omoss.shtml"><img src="../fotball_liten.png" /> Om oss</a>
+					 
+				</div>
+				
+			</div>
+			
+				
+			<div id="content"> <!-- innholdsdelen av siden. alle artikler osv skal ligge her -->
+			
+			<h2> Italienske Rossi ble helten for spanske Villarreal </h2>
+
+				<p>
+				Igjen stod <strong>Giuseppe Rossi</strong> frem som den store helt for <strong>Villarreal</strong>, da <strong>Villarreal</strong> sikret seg gruppeseieren i Gruppe D i <strong>Europa League</strong>. Onsdag kveld vant de 2-1 på utebane over belgiske <strong>Club Brügge</strong>.
+				<strong>Club Brügge</strong> startede ellers best da <strong>Camerounske Dorge Kouemaha</strong> scorede til 1-0 for hjemmelaget, i løpet av de neste 6 minutter klarte <strong>Rossi</strong> å utligne og bringe <strong>Villarreal</strong> i føring med to kjappe mål.  
+				</p>
+
+				<p> 
+				Seieren gir dermed <strong>Villarreal</strong> førsteplassen i Gruppe D foran greske <strong>PAOK Saloniki</strong>, der vant en 1-0 seier ute over <strong>Dinamo Zagreb</strong>.
+				<p>
+
+				<p>
+ 				<strong>Dinamo Kiev</strong> vinner Gruppe E etter uavgjort mot <strong>FC Sheriff</strong> mens <strong>BATE Borisov</strong> klarte andreplassen tross et regulært nederlag på 0-3 på utebane mot <strong>AZ Alkmaar</strong>. 
+				Vinner av Gruppe F ble <strong>CSKA Moskva</strong> etter 1-1 ute mot <strong>Sparta Prag</strong>, dermed sikrede <strong>Sparta Prag</strong> seg andreplassen i gruppen.
+				</p>
+	
+				<hr>
+				
+			</div>
+			
+			<div id="footer">		<!-- "menylinje" p� bunnen av siden -->
+				<p>onsider.net &copy; 2010 - Gruppe 40 
+				<a href="http://validator.w3.org/check?uri=referer">HTML 5</a>
+				<a href="../kontakt.php">Kontakt</a>
+				</p>
+			</div>
+			
+			<div id="update">
+			
+				<p>Sist oppdatert: <!--#echo var="LAST_MODIFIED" --> </p>
+				
+			</div>
+			
+	</div>
+		
+		<div id="sidebar"> <!-- Sidemeny f.eks. med siste resultater fra kamper eller nyhetsoppdateringer -->	
+			
+			<h4>&nbsp;Siste resultater:</h4><table>
+		<tr><td class="col2"><p><!--#include virtual="/sidebar.html" --> 		
+		
+		</div>
+				
+	</div>
+		
+	</body>
+</html>

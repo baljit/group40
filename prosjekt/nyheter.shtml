@@ -34,7 +34,7 @@
 		
 				<div id="menu"> <!-- Meny -->
 					<a href="index.shtml">onsider.net</a>
-					<a href="nyheter.shtml" class="active"><img src="fotball_liten.png" /> Nyheter</a>
+					<a href="nyheter.shtml" class="active"><img src="fotball_liten.png" /> Nyhetsarkiv</a>
 					<a href="artikler.shtml"><img src="fotball_liten.png" /> Artikler</a>
 					<a href="diskusjon.php"><img src="fotball_liten.png" /> Diskusjon</a>
 					<a href="omoss.shtml"><img src="fotball_liten.png" /> Om oss</a>
@@ -45,16 +45,54 @@
 			
 				
 			<div id="content"> <!-- innholdsdelen av siden. alle artikler osv skal ligge her -->
-			
 				
+				<h4> Spania gjør det igjen - 15/12/10</h4> 
+				<p><a href="artikler/artikkel10.shtml">Les mer...</a></p>
 				<hr>
+				
+				<h4> Solskjær kan vinne Tippeligaen - 15/12/10</h4> 
+				<p><a href="artikler/artikkel1.shtml">Les mer...</a></p>
+				<hr>
+				
+				<h4> Huseklepp kan bli solgt nå i Januar   - 15/12/10</h4> 
+				<p><a href="artikler/artikkel2.shtml">Les mer...</a></p>
+				<hr>
+				
+				<h4> Zlatan Ibrahimovic blir sammenlignet med Marco van Basten - 15/12/10</h4> 
+				<p><a href="artikler/artikkel3.shtml">Les mer...</a></p>
+				<hr>
+				
+				<h4> Avram Grant kan få sparken i West Ham - 15/12/10</h4> 
+				<p><a href="artikler/artikkel4.shtml">Les mer...</a></p>
+				<hr>
+				
+				<h4> Adriano kåret til Serie A's dårligste fotballspiller - 15/12/10</h4> 
+				<p><a href="artikler/artikkel5.shtml">Les mer...</a></p>
+				<hr>
+				
+				<h4>Italienske Rossi ble helten for spanske Villarreal - 15/12/10</h4> 
+				<p><a href="artikler/artikkel6.shtml">Les mer...</a></p>
+				<hr>
+				
+				<h4> Svenske klubber bestemmer selv motstander i seriestarten - 15/12/10</h4> 
+				<p><a href="artikler/artikkel7.shtml">Les mer...</a></p>
+				<hr>
+				
+				<h4> Danske OB starter opprydding i spillerstallen - 15/12/10</h4> 
+				<p><a href="artikler/artikkel8.shtml">Les mer...</a></p>
+				<hr>
+				
+				<h4> Har dansk fotball hellet med seg i kveld - 15/12/10</h4>  
+				<p><a href="artikler/artikkel9.shtml">Les mer...</a></p>
+				<hr>
+				
 				
 			</div>
 			
 			<div id="footer">		<!-- "menylinje" på bunnen av siden -->
 				<p>onsider.net &copy; 2010 - Gruppe 40 
 				<a href="http://validator.w3.org/check?uri=referer">HTML 5</a>
-				<a href="kontakt.shtml">Kontakt</a>
+				<a href="kontakt.php">Kontakt</a>
 				</p>
 			</div>
 			

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Velkommen til onsider.net - fotball på norsk</title>
+		<link rel="stylesheet" type="text/css" href="../style.css" />
+
+		<script type="text/javascript">
+			function pageLoad() {
+				hideOnLoad("england")
+				hideOnLoad("italia")
+				hideOnLoad("spania")
+			}
+
+			window.onload=pageLoad;
+
+			function hideOnLoad(liga) {
+				document.getElementById(liga).style.display = "none";
+			}
+
+			function toggle(liga) {
+				document.getElementById(liga).style.display = (document.getElementById(liga).style.display == "none") ? "" : "none";
+			}
+		</script>
+	</head>
+	<body>
+
+	<div id="helesiden">
+
+	<div id="container">
+
+			<div id="header">  <!-- Området på toppen av siden med logo/overskrift og meny -->
+				<a href="../index.shtml"><h1>onsider.net</h1><p>- fotball på norsk</p></a>
+
+				<div id="menu"> <!-- Meny -->
+					<a href="../index.shtml">onsider.net</a>
+					<a href="../nyheter.shtml"><img src="../fotball_liten.png" /> Nyhetsarkiv</a>
+					<a href="../artikler.shtml" class="active"><img src="../fotball_liten.png" /> Artikler</a>
+					<a href="../diskusjon.php"><img src="../fotball_liten.png" /> Diskusjon</a>
+					<a href="../omoss.shtml"><img src="../fotball_liten.png" /> Om oss</a>
+
+				</div>
+
+			</div>
+
+
+			<div id="content"> <!-- innholdsdelen av siden. alle artikler osv skal ligge her -->
+
+				<h2> Hva skal til for å bli en profersjonell fotballspiller? - Et intervju med Thomas Olsen </h2>
+
+				<p><img src="../thomas.jpg" alt="Bilde av Thomas Olsen" />
+				Thomas Olsen er en ung og profersjonell fotballspiller som spiller for Ham-Kam.
+				Denne unge lovende fotballspilleren som har en spissrolle i laget, scoret 26 mål denne sesongen i 2.divisjon avdeling 4.
+				Thomas har latt seg intervju sånn at andre folk kan se hva som trengs for å nå helt opp og tjene penger av hobbyen sin.
+				</p>
+
+				<p>
+
+				<i>Hvordan er det å leve av hobbyen sin?</i>
+
+				</p>
+
+				<p>
+				<i>Svar:</i> Det er jo det som er drømmen! Det og kunne leve av hobbyen sin.
+
+				</p>
+
+				<p>
+				<i>Når skjønte du at du hadde sjangs til å bli en profersjonell fotballspiller?</i>
+				</p>
+
+				<p>
+				<i>Svar:</i>Det skjønte jeg tidlig på barneskolen. følte liksom at jeg var den beste på bana,
+				og jeg ville spille fotball hele tiden.
+				Jeg trente hver dag, samme om det var med guttelaget eller "Old boys" laget til fattern.
+				</p>
+
+				<p>
+				<i>Hva kreves det av en person til å bli en profersjonell fotballspiller?</i>
+				</p>
+
+				<p>
+				<i>Svar:</i> Da kreves stein hard jobbing. er ikke så mye anna å si.
+				Har du viljen og talentet, så er det bare å jobbe knallhardt.
+				</p>
+
+				<p>
+				<i>Er dette drømmeyrket?</i>
+				</p>
+
+				<p>
+				<i>Svar:</i> For meg så er det drømmeyrket! fordi det er jo hobbyen min.
+				Alle som får hobbyen sin som yrke vil si at det er drømmeyrket!
+				</p>
+
+				<p>
+				<i>Hvordan har livet forandret seg når du ble proff kontra amataør?</i>
+				</p>
+
+				<p>
+				<i>Svar:</i> Jeg synes jo det var litt rart til å begynne med, men det ble en vane å trene 2 ganger om dagen,
+				spise sunnere, og legge seg i en normal tid.
+				I starten så var det jo litt kjedelig når jeg ikke gjorde noe utenom fotballen,
+				for da blir det å ligge hjemme på sofaen, men nå som jeg jobber litt utenom,
+				så får jeg mer energi. Det var en veldig stor overgang fra Moelven til Hamkam,
+				både med trening og det utenomsportslige!
+				</p>
+
+				<hr>
+				
+				<p>Diskuter artikkelen på diskusjonsdelen av siden</p>
+				<p><a href="http://www.onsider.net/msg.php?id=6">Hva skal til for å bli en profersjonell fotballspiller?</a></p>
+				
+				<hr>
+
+			</div>
+
+			<div id="footer">		<!-- "menylinje" på bunnen av siden -->
+				<p>onsider.net &copy; 2010 - Gruppe 40
+				<a href="http://validator.w3.org/check?uri=referer">HTML 5</a>
+				<a href="../kontakt.php">Kontakt</a>
+				</p>
+			</div>
+
+			<div id="update">
+
+				<p>Sist oppdatert: <!--#echo var="LAST_MODIFIED" --> </p>
+
+			</div>
+
+	</div>
+
+		<div id="sidebar"> <!-- Sidemeny f.eks. med siste resultater fra kamper eller nyhetsoppdateringer -->
+
+			<h4>&nbsp;Siste resultater:</h4><table>
+		<tr><td class="col2"><p><!--#include virtual="/sidebar.html" -->
+
+		</div>
+
+	</div>
+
+	</body>
+</html>
