@@ -99,7 +99,7 @@ ble “oppfunnet”.  </p>
 		<div id="sidebar"> <!-- Sidemeny f.eks. med siste resultater fra kamper eller nyhetsoppdateringer -->	
 			
 			<h4>&nbsp;Siste resultater:</h4><table>
-		<tr><td class="col2"><p><!--#include file="sidebar.html" --> 		
+		<tr><td class="col2"><p><!--#include virtual="/sidebar.html" --> 		
 		
 		</div>
 				
